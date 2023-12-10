@@ -62,8 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\CharacterScripts\CharacterScript.cs" />
     <Compile Include="Assets\CharacterScripts\CameraMovement.cs" />
-    <Compile Include="Assets\CharacterScripts\CharacterLeftWing.cs" />
-    <Compile Include="Assets\CharacterScripts\CharacterRightWing.cs" />
+    <Compile Include="Assets\CharacterScripts\CharacterWingsScript.cs" />
+    <Compile Include="Assets\CharacterScripts\CharacterRightWingScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

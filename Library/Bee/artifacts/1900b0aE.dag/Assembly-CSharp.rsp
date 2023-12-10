@@ -353,9 +353,9 @@
 -analyzer:"D:/UnityEngine/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/UnityEngine/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CharacterScripts/CameraMovement.cs"
-"Assets/CharacterScripts/CharacterLeftWing.cs"
-"Assets/CharacterScripts/CharacterRightWing.cs"
+"Assets/CharacterScripts/CharacterRightWingScript.cs"
 "Assets/CharacterScripts/CharacterScript.cs"
+"Assets/CharacterScripts/CharacterWingsScript.cs"
 -langversion:9.0
 
 /deterministic
