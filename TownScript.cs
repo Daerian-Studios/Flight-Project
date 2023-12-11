@@ -35,7 +35,7 @@ public class TownScript : MonoBehaviour
     {
         if(character.transform.position.z >= newSpawnPositionZ)
         {
-            newSpawnPosition = new Vector3(27.08f, -5.3f, 2*newSpawnPositionZ);
+            newSpawnPosition = new Vector3(27.08f, -5.3f, newSpawnPositionZ+56.2f);
             objectToCreate = Instantiate(town, newSpawnPosition, spawnRotation1);
 
             newSpawnPositionZ += 56.2f;
