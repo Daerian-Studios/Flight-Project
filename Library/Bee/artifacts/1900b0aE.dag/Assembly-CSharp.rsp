@@ -355,7 +355,9 @@
 "Assets/CharacterScripts/CameraMovement.cs"
 "Assets/CharacterScripts/CharacterRightWingScript.cs"
 "Assets/CharacterScripts/CharacterScript.cs"
+"Assets/CharacterScripts/CharacterWingsControllerScript.cs"
 "Assets/CharacterScripts/CharacterWingsScript.cs"
+"Assets/MapScripts/TownScript.cs"
 -langversion:9.0
 
 /deterministic
