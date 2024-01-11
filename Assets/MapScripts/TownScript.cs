@@ -20,7 +20,7 @@ public class TownScript : MonoBehaviour
         town = GameObject.Find("townNotScripted");
         character = GameObject.Find("testCharacter");
 
-        spawnPosition1 = new Vector3(27.08f, -5.3f, 56.2f);
+        spawnPosition1 = new Vector3(27.08f, 2.7f, 56.2f);
         spawnRotation1 = Quaternion.identity;
 
         if (generateOnStart)
@@ -35,7 +35,7 @@ public class TownScript : MonoBehaviour
     {
         if (character.transform.position.z >= newSpawnPositionZ)
         {
-            newSpawnPosition = new Vector3(27.08f, -5.3f, newSpawnPositionZ + 56.2f);
+            newSpawnPosition = new Vector3(27.08f, 2.7f, newSpawnPositionZ + 56.2f);
             objectToCreate = Instantiate(town, newSpawnPosition, spawnRotation1);
 
             newSpawnPositionZ += 56.2f;

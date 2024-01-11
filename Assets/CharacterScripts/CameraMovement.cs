@@ -18,8 +18,5 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         Camera.transform.position = Character.transform.position + new Vector3(xOffset, yOffset, zOffset);
-        Debug.Log(Character.transform.position.x);
-        Debug.Log(" ");
-        Debug.Log(Camera.transform.position.x);
     }
 }
